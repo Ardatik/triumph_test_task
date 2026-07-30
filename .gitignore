@@ -1,0 +1,104 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.coverage.*
+.hypothesis/
+.pyre/
+.pytype/
+.jupyter/
+ipynb_checkpoints
+.pycache
+*.pyc
+lib64
+
+# === Виртуальные окружения ===
+venv/
+env/
+venv.bak/
+env.bak/
+.venv/
+.env/
+ENV/
+.bin/
+.include/
+.lib/
+.lib64/
+.include/
+.local/
+build/
+develop-eggs/
+dist/
+eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.spec
+
+# === Виртуальные окружения (имена, которые могут быть) ===
+env/
+ENV/
+venv/
+virtualenv/
+.venv/
+env.bak/
+venv.bak/
+
+# === Конфигурационные и исполняемые файлы виртуального окружения ===
+bin/
+lib/
+lib64/
+include/
+share/
+activate
+activate.csh
+activate.fish
+pyvenv.cfg
+pip-selfcheck.json
+
+# === Логи и временные файлы ===
+*.log
+logs/
+*.sqlite3
+*.db
+.DS_Store
+
+# === IDE и редакторы ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.cache
+Thumbs.db
+
+# === Операционные системы ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === Бэкапы ===
+*~
+*.bak
+*.tmp
+
+# === Локальные настройки ===
+.env
+.local
+secret.py
+secrets.json
