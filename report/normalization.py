@@ -1,9 +1,12 @@
+import logging
 import re
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
 from typing import Any
 
 from thefuzz import process
+
+logger = logging.getLogger(__name__)
 
 
 class Normalization:
@@ -91,6 +94,8 @@ class Normalization:
     }
 
     def normalize_data(self, data: dict):
+        row_num = data.get("Номер строки", "?")
+        logger.debug("Нормализация строки %s", row_num)
         return {
             "id": data.get("ID заказа"),
             "date": self._normalize_date(value=data.get("Дата")),
@@ -137,31 +142,50 @@ class Normalization:
 
     def _normalize_date(self, value: Any) -> str | None:
         if not value:
+            logger.debug("Пустое значение даты")
             return None
         date = str(value).strip()
         try:
             datetime.strptime(date, "%d.%m.%Y")
+            logger.debug("Дата '%s' уже в правильном формате", date)
             return date
         except ValueError:
             pass
-        for format in self._DATE_FORMATS:
+        for fmt in self._DATE_FORMATS:
             try:
-                dt = datetime.strptime(date, format)
-                return dt.strftime("%d.%m.%Y")
+                dt = datetime.strptime(date, fmt)
+                result = dt.strftime("%d.%m.%Y")
+                logger.debug(
+                    "Дата '%s' распарсена через формат '%s' -> '%s'", date, fmt, result
+                )
+                return result
             except ValueError:
                 continue
-        return self._parse_text_date(date)
+        result = self._parse_text_date(date)
+        if result:
+            logger.debug(
+                "Дата '%s' распарсена как текстовый формат -> '%s'", date, result
+            )
+        else:
+            logger.warning("Не удалось распарсить дату: '%s'", date)
+        return result
 
     def _normalize_city(self, value: str | None) -> str | None:
         if not value:
+            logger.debug("Пустое значение города")
             return None
         city = value.strip()
         if city in self._CORRECT_CITIES:
+            logger.debug("Город '%s' найден в списке корректных", city)
             return city
         match = process.extractOne(city, self._CORRECT_CITIES, score_cutoff=80)
         if match:
+            logger.info(
+                "Город '%s' исправлен на '%s' (score=%d)", city, match[0], match[1]
+            )
             return match[0]
         else:
+            logger.warning("Город '%s' не распознан", city)
             return None
 
     def _normalize_master(self, value: str | None):
@@ -169,38 +193,56 @@ class Normalization:
             master = value.strip().split()
             if not master:
                 return None
-            return " ".join(part.capitalize() for part in master)
+            result = " ".join(part.capitalize() for part in master)
+            logger.debug("Имя мастера '%s' -> '%s'", value, result)
+            return result
         return None
 
     def _normalize_status(self, value: str) -> str | None:
         if not value:
+            logger.debug("Пустое значение статуса")
             return None
         status = value.strip().lower()
         if not status:
             return None
         status_map = {**self._COMPLETED_STATUSES, **self._CANCELED_STATUSES}
-        return status_map.get(status, status)
+        result = status_map.get(status, status)
+        if result != status:
+            logger.debug("Статус '%s' нормализован в '%s'", status, result)
+        else:
+            logger.warning("Статус '%s' не распознан", status)
+        return result
 
     def _normalize_amount(self, value: Any) -> Decimal | None:
         if value is None:
+            logger.debug("Пустое значение суммы")
             return None
         if isinstance(value, (int, float)):
-            return Decimal(str(value))
+            result = Decimal(str(value))
+            logger.debug("Сумма %s -> %s", value, result)
+            return result
         raw = str(value).strip()
         cleaned = re.sub(r"[^\d.,\-]", "", raw)
         if not cleaned:
+            logger.warning("Сумма '%s' не содержит цифр", raw)
             return None
         cleaned = cleaned.replace(",", ".")
         try:
-            return Decimal(cleaned)
+            result = Decimal(cleaned)
+            logger.debug("Сумма '%s' -> %s", raw, result)
+            return result
         except InvalidOperation:
+            logger.warning("Не удалось преобразовать сумму: '%s'", raw)
             return None
 
     def _normalize_yes_no(self, value: str | None) -> bool | None:
         if value is not None:
             normalized_value = str(value).strip().lower()
             if normalized_value in self._POSITIVE_VALUES:
+                logger.debug("'%s' -> True", value)
                 return True
             if normalized_value in self._NEGATIVE_VALUES:
+                logger.debug("'%s' -> False", value)
                 return False
+            logger.warning("Значение '%s' не распознано как да/нет", value)
         return None
