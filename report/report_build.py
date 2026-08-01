@@ -1,3 +1,4 @@
+import logging
 from collections import defaultdict
 from decimal import Decimal
 
@@ -7,6 +8,8 @@ from .handler import ExcelHandler
 from .models import ReportOrder, ValidationError
 from .normalization import Normalization
 from .validation import OrderValidator
+
+logger = logging.getLogger(__name__)
 
 
 class ReportBuilder:
@@ -26,10 +29,18 @@ class ReportBuilder:
         self.validator = OrderValidator(self.normalizer)
 
     def build_report(self, input_file: str, output_file: str = "report.xlsx") -> None:
+        logger.info("Загрузка файла %s", input_file)
         raw_data = self.handler.read_file(filename=input_file)
+        logger.info("Прочитано %d строк", len(raw_data))
         valid_orders, errors = self.validator.validate(data=raw_data)
+        logger.info(
+            "Валидация завершена. Успешных заказов: %d, ошибок: %d",
+            len(valid_orders),
+            len(errors),
+        )
         master_stats = self._prepare_data_for_report(valid_orders)
         self._write_report_to_file(master_stats, errors, output_file)
+        logger.info("Отчёт сохранён в %s", output_file)
 
     def _prepare_data_for_report(self, orders: list[ReportOrder]) -> dict[str, dict]:
         master_stats = defaultdict(
@@ -92,7 +103,7 @@ class ReportBuilder:
             if err.value is not None:
                 ws_errors.cell(row=i, column=5, value=str(err.value))
             else:
-                ws_errors.cell(row=i, column=5, value="")
+                ws_errors.cell(row=i, column=5, value="значение отсутствует")
         for col in range(1, len(error_headers) + 1):
             column_letter = ws_errors.cell(row=1, column=col).column_letter
             ws_errors.column_dimensions[column_letter].width = 25
