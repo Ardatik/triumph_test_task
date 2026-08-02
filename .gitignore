@@ -67,7 +67,6 @@ pyvenv.cfg
 pip-selfcheck.json
 
 # === Логи и временные файлы ===
-*.log
 logs/
 *.sqlite3
 *.db

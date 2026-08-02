@@ -29,7 +29,7 @@ async def index(request: Request):
 
 
 @router.post("/", response_class=HTMLResponse)
-async def upload_and_build(request: Request, file: UploadFile = File(...)):
+async def upload_and_build(request: Request, file: UploadFile):
     if not file.filename:
         return templates.TemplateResponse(
             request=request,
@@ -61,7 +61,6 @@ async def upload_and_build(request: Request, file: UploadFile = File(...)):
         return FileResponse(
             path=str(output_path),
             filename=report_filename,
-            media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
 
     except Exception as e:
