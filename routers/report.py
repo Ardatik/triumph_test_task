@@ -58,7 +58,7 @@ async def upload_and_build(
         input_path = UPLOAD_FOLDER / file.filename
         async with aiofiles.open(input_path, "wb") as f:
             await f.write(content)
-        report_filename = f"report_{file.filename}"
+        report_filename = "report.xlsx"
         output_path = REPORT_FOLDER / report_filename
         builder = ReportBuilder()
         builder.build_report(input_file=str(input_path), output_file=str(output_path))
