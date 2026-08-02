@@ -5,134 +5,278 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Отчёт по мастерам</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        :root {
+            --primary-color: #4CAF50;
+            --primary-hover: #43a047;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-main: #333333;
+            --text-secondary: #666666;
+            --border-color: #e0e0e0;
+            --error-bg: #ffebee;
+            --error-text: #c62828;
+            --success-bg: #e8f5e9;
+            --success-text: #2e7d32;
+            --info-bg: #e3f2fd;
+            --info-text: #0d47a1;
+            --info-border: #2196f3;
         }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: #f5f5f5;
-            min-height: 100vh;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
             display: flex;
             justify-content: center;
             align-items: center;
+            min-height: 100vh;
+            margin: 0;
             padding: 20px;
+            box-sizing: border-box;
         }
+
         .container {
-            background: #ffffff;
-            border: 1px solid #e0e0e0;
-            border-radius: 4px;
-            padding: 32px;
-            max-width: 460px;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+            max-width: 500px;
             width: 100%;
         }
+
         h1 {
-            font-size: 20px;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 4px;
+            text-align: center;
+            margin: 0 0 10px 0;
+            font-size: 26px;
+            color: var(--text-main);
         }
+
         .description {
-            color: #666;
-            font-size: 13px;
-            margin-bottom: 24px;
-            line-height: 1.4;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 30px;
+            line-height: 1.5;
         }
+
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 24px;
         }
-        .form-group label {
+
+        label {
             display: block;
-            font-size: 13px;
-            font-weight: 500;
-            color: #333;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 14px;
         }
-        input[type="file"] {
-            display: block;
+
+        input[type="text"] {
             width: 100%;
-            padding: 8px 10px;
-            border: 1px solid #d0d0d0;
-            border-radius: 3px;
-            font-size: 13px;
-            color: #333;
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 15px;
+            box-sizing: border-box;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+            outline: none;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            padding: 16px;
+            border: 2px dashed var(--border-color);
+            border-radius: 8px;
             background: #fafafa;
             cursor: pointer;
-        }
-        input[type="file"]:focus {
-            outline: none;
-            border-color: #888;
-        }
-        .btn {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            background: #2c2c2c;
-            color: #fff;
-            border: none;
-            border-radius: 3px;
             font-size: 14px;
-            font-weight: 500;
+            color: var(--text-secondary);
+            box-sizing: border-box;
+            transition: border-color 0.2s, background 0.2s;
+        }
+
+        input[type="file"]:hover {
+            border-color: var(--primary-color);
+            background: #f0fdf4;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 14px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
             cursor: pointer;
-            transition: background 0.15s;
+            transition: background 0.2s, transform 0.1s;
         }
+
         .btn:hover {
-            background: #3d3d3d;
+            background: var(--primary-hover);
         }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
         .btn:disabled {
-            background: #999;
+            background: #a5d6a7;
             cursor: not-allowed;
+            transform: none;
         }
-        .error {
-            background: #fff5f5;
-            border: 1px solid #fcc;
-            color: #b30000;
-            padding: 12px;
-            border-radius: 3px;
-            margin-bottom: 20px;
-            font-size: 13px;
-        }
+
         .loading {
             display: none;
             text-align: center;
-            margin-top: 12px;
-            font-size: 13px;
-            color: #666;
+            margin-top: 16px;
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 14px;
+            animation: fadeIn 0.3s ease-in-out;
         }
+
         .loading.active {
             display: block;
+        }
+
+        .error {
+            background: var(--error-bg);
+            color: var(--error-text);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--error-text);
+            font-size: 14px;
+        }
+
+        .success {
+            background: var(--success-bg);
+            color: var(--success-text);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            border-left: 4px solid var(--success-text);
+            text-align: center;
+        }
+
+        .success p {
+            margin: 0 0 16px 0;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background: var(--success-text);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .btn-download:hover {
+            background: #1b5e20;
+        }
+
+        .tip-box {
+            background: var(--info-bg);
+            border-left: 4px solid var(--info-border);
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-size: 13px;
+            color: var(--info-text);
+            line-height: 1.5;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .tip-box svg {
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .tip-box a {
+            color: #1565c0;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .tip-box a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Отчёт по мастерам</h1>
+        <p class="description">Загрузите Excel-файл для формирования отчёта.</p>
+
         {% if error %}
         <div class="error">{{ error }}</div>
         {% endif %}
 
+        {% if success %}
+        <div class="success">
+            <a href="{{ download_url }}" class="btn-download">Скачать отчёт</a>
+        </div>
+        {% endif %}
+
         <form method="POST" enctype="multipart/form-data" onsubmit="handleSubmit()">
             <div class="form-group">
-                <label for="fileInput">Файл Excel (.xlsx)</label>
+                <label for="fileInput">Файл Excel</label>
                 <input type="file" id="fileInput" name="file" accept=".xlsx,.xls" required>
             </div>
+
+            <div class="form-group">
+                <label for="telegramId">Telegram ID для уведомлений</label>
+                <input type="text" id="telegramId" name="telegram_id" placeholder="123456789" value="{{ telegram_id or '' }}">
+
+                <div class="tip-box">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    </svg>
+                    <span>
+                        <strong>Важно:</strong> Чтобы уведомления работали, сначала найдите бота в Telegram и отправьте ему команду <code>/start</code>.
+                        Узнать свой ID можно у <a href="https://t.me/userinfobot" target="_blank">@userinfobot</a>.
+                    </span>
+                </div>
+            </div>
+
             <button type="submit" class="btn" id="submitBtn">Сформировать отчёт</button>
-            <div class="loading" id="loading">Идёт обработка файла...</div>
+            <div class="loading" id="loading">⏳ Идёт обработка файла, пожалуйста, подождите...</div>
         </form>
     </div>
 
     <script>
-        const fileInput = document.getElementById('fileInput');
         const submitBtn = document.getElementById('submitBtn');
         const loading = document.getElementById('loading');
 
-        fileInput.addEventListener('change', function() {
-        });
-
         function handleSubmit() {
+            const fileInput = document.getElementById('fileInput');
+            if (!fileInput.files.length) {
+                return;
+            }
+
             submitBtn.disabled = true;
-            submitBtn.textContent = 'Идёт обработка...';
+            submitBtn.textContent = 'Обработка...';
             loading.classList.add('active');
         }
     </script>
