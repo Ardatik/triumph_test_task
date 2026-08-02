@@ -218,11 +218,11 @@ class Normalization:
             logger.debug("Пустое значение суммы")
             return None
         if isinstance(value, (int, float)):
-            result = Decimal(str(value))
+            result = Decimal(str(abs(value)))
             logger.debug("Сумма %s -> %s", value, result)
             return result
         raw = str(value).strip()
-        cleaned = re.sub(r"[^\d.,\-]", "", raw)
+        cleaned = re.sub(r"[^\d.,]", "", raw)
         if not cleaned:
             logger.warning("Сумма '%s' не содержит цифр", raw)
             return None

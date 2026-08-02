@@ -1,432 +1,432 @@
-2026-08-02 14:20:00,394 - routers.report - INFO - Загружен файл: Тестовое_задание.xlsx
-2026-08-02 14:20:00,397 - report.report_build - INFO - Загрузка файла /tmp/uploads/Тестовое_задание.xlsx
-2026-08-02 14:20:00,398 - report.handler - INFO - Чтение файла '/tmp/uploads/Тестовое_задание.xlsx', лист 'Заказы_сырье'
-2026-08-02 14:20:00,488 - report.handler - INFO - Прочитано 1200 строк
-2026-08-02 14:20:00,489 - report.report_build - INFO - Прочитано 1200 строк
-2026-08-02 14:20:00,489 - report.validation - INFO - Начинаем валидацию 1200 строк
-2026-08-02 14:20:00,491 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,491 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,491 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,491 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,491 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,491 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,492 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,492 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,492 - report.validation - WARNING - Строка 29 (ID=ORD-100028) исключена из-за 1 ошибок
-2026-08-02 14:20:00,492 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,492 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,492 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,492 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,492 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,492 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,493 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,493 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,493 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,493 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,493 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,493 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,493 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,493 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,493 - report.normalization - INFO - Город 'анапа' исправлен на 'Анапа' (score=100)
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Сумма 'не указано' не содержит цифр
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,494 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,495 - report.validation - WARNING - Строка 102 (ID=ORD-100101) исключена из-за 1 ошибок
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,495 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,496 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,496 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,496 - report.normalization - WARNING - Сумма 'abc' не содержит цифр
-2026-08-02 14:20:00,496 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,496 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,497 - report.validation - WARNING - Строка 144 (ID=ORD-100143) исключена из-за 1 ошибок
-2026-08-02 14:20:00,497 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,498 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,498 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,499 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,499 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,499 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,499 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,500 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,500 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,500 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,500 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,501 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,501 - report.normalization - WARNING - Сумма 'не указано' не содержит цифр
-2026-08-02 14:20:00,501 - report.validation - WARNING - Строка 194 (ID=ORD-100193) исключена из-за 1 ошибок
-2026-08-02 14:20:00,501 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,502 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,502 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,502 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,504 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Сумма 'три тысячи' не содержит цифр
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Сумма '' не содержит цифр
-2026-08-02 14:20:00,505 - report.validation - WARNING - Строка 209 (ID=ORD-100208) исключена из-за 1 ошибок
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,505 - report.validation - WARNING - Строка 226 (ID=ORD-100225) исключена из-за 1 ошибок
-2026-08-02 14:20:00,505 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Не удалось распарсить дату: '32.05.2026'
-2026-08-02 14:20:00,508 - report.validation - WARNING - Строка 229 (ID=ORD-100228) исключена из-за 1 ошибок
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Статус 'завершено?' не распознан
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Сумма '' не содержит цифр
-2026-08-02 14:20:00,508 - report.validation - WARNING - Строка 237 (ID=ORD-100236) исключена из-за 1 ошибок
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,508 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,509 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,509 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,509 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,509 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,509 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,509 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,509 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,509 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,510 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,510 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,510 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,510 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,510 - report.validation - WARNING - Строка 292 (ID=ORD-100291) исключена из-за 1 ошибок
-2026-08-02 14:20:00,510 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,510 - report.validation - WARNING - Строка 302: дубликат ID заказа 'ORD-100050'
-2026-08-02 14:20:00,510 - report.validation - WARNING - Строка 302 (ID=ORD-100050) исключена из-за 1 ошибок
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Сумма 'три тысячи' не содержит цифр
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,511 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,512 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,512 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,512 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,512 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,512 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,512 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,512 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,512 - report.validation - WARNING - Строка 350 (ID=ORD-100349) исключена из-за 1 ошибок
-2026-08-02 14:20:00,512 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,513 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,513 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,513 - report.validation - WARNING - Строка 363 (ID=ORD-100362) исключена из-за 1 ошибок
-2026-08-02 14:20:00,513 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,513 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,513 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,514 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,514 - report.validation - WARNING - Строка 399 (ID=ORD-100398) исключена из-за 1 ошибок
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'завершено?' не распознан
-2026-08-02 14:20:00,515 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Сумма 'abc' не содержит цифр
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,516 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Не удалось распарсить дату: '32.05.2026'
-2026-08-02 14:20:00,517 - report.validation - WARNING - Строка 453 (ID=ORD-100452) исключена из-за 1 ошибок
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,517 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,518 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,518 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,518 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,518 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,518 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,518 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,518 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,518 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,519 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,519 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,519 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,519 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,519 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,519 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,519 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,519 - report.validation - WARNING - Строка 508: дубликат ID заказа 'ORD-100074'
-2026-08-02 14:20:00,519 - report.validation - WARNING - Строка 508 (ID=ORD-100074) исключена из-за 1 ошибок
-2026-08-02 14:20:00,519 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,520 - report.normalization - INFO - Город 'Новоросийск' исправлен на 'Новороссийск' (score=96)
-2026-08-02 14:20:00,520 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,520 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,520 - report.normalization - INFO - Город 'Новоросийск' исправлен на 'Новороссийск' (score=96)
-2026-08-02 14:20:00,520 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,520 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,520 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,521 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,521 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,521 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,521 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,521 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,521 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,521 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,521 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,522 - report.normalization - WARNING - Не удалось распарсить дату: '32.05.2026'
-2026-08-02 14:20:00,522 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,522 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,522 - report.normalization - WARNING - Статус 'завершено?' не распознан
-2026-08-02 14:20:00,522 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,522 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,522 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,522 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,523 - report.validation - WARNING - Строка 597 (ID=ORD-100596) исключена из-за 1 ошибок
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,523 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,524 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,524 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,524 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,524 - report.normalization - INFO - Город 'Новоросийск' исправлен на 'Новороссийск' (score=96)
-2026-08-02 14:20:00,524 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,524 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,524 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,524 - report.normalization - WARNING - Не удалось распарсить дату: '00.05.2026'
-2026-08-02 14:20:00,524 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'завершено?' не распознан
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,525 - report.validation - WARNING - Строка 647: дубликат ID заказа 'ORD-100028'
-2026-08-02 14:20:00,525 - report.validation - WARNING - Строка 647 (ID=ORD-100028) исключена из-за 1 ошибок
-2026-08-02 14:20:00,525 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,526 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,527 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,527 - report.normalization - WARNING - Статус 'готово' не распознан
-2026-08-02 14:20:00,527 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,527 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,528 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,528 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,528 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,528 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,528 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,528 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,528 - report.normalization - WARNING - Не удалось распарсить дату: '30.02.2026'
-2026-08-02 14:20:00,529 - report.validation - WARNING - Строка 723 (ID=ORD-100722) исключена из-за 1 ошибок
-2026-08-02 14:20:00,529 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,529 - report.normalization - WARNING - Не удалось распарсить дату: '31.04.2026'
-2026-08-02 14:20:00,529 - report.validation - WARNING - Строка 727 (ID=ORD-100726) исключена из-за 1 ошибок
-2026-08-02 14:20:00,529 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,529 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,529 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,530 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,530 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,530 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,530 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,530 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,530 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,530 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,531 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,531 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,531 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,531 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,532 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,532 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,532 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,532 - report.normalization - INFO - Город 'Ростов на Дону' исправлен на 'Ростов-на-Дону' (score=100)
-2026-08-02 14:20:00,532 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,532 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,532 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,532 - report.normalization - INFO - Город 'Новоросийск' исправлен на 'Новороссийск' (score=96)
-2026-08-02 14:20:00,532 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,533 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,533 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,533 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,533 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,533 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,533 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,533 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,534 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,534 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,534 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,534 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,534 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,534 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,535 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,535 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,535 - report.validation - WARNING - Строка 878 (ID=ORD-100877) исключена из-за 1 ошибок
-2026-08-02 14:20:00,535 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,535 - report.normalization - WARNING - Не удалось распарсить дату: '00.05.2026'
-2026-08-02 14:20:00,536 - report.validation - WARNING - Строка 889 (ID=ORD-100888) исключена из-за 1 ошибок
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,536 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,537 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,537 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,537 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,537 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,537 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,537 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,537 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,537 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,538 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,539 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,539 - report.validation - WARNING - Строка 969: дубликат ID заказа 'ORD-100759'
-2026-08-02 14:20:00,539 - report.validation - WARNING - Строка 969 (ID=ORD-100759) исключена из-за 1 ошибок
-2026-08-02 14:20:00,539 - report.validation - WARNING - Строка 973 (ID=ORD-100972) исключена из-за 1 ошибок
-2026-08-02 14:20:00,539 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,539 - report.normalization - WARNING - Статус 'завершено?' не распознан
-2026-08-02 14:20:00,539 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,539 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,539 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,540 - report.normalization - INFO - Город 'Ростов на Дону' исправлен на 'Ростов-на-Дону' (score=100)
-2026-08-02 14:20:00,540 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,540 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,540 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,540 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,540 - report.normalization - WARNING - Не удалось распарсить дату: '31.04.2026'
-2026-08-02 14:20:00,540 - report.validation - WARNING - Строка 1002 (ID=ORD-101001) исключена из-за 1 ошибок
-2026-08-02 14:20:00,540 - report.normalization - WARNING - Статус 'завершено?' не распознан
-2026-08-02 14:20:00,541 - report.normalization - WARNING - Не удалось распарсить дату: '31.04.2026'
-2026-08-02 14:20:00,541 - report.validation - WARNING - Строка 1012 (ID=ORD-101011) исключена из-за 1 ошибок
-2026-08-02 14:20:00,541 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,541 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,541 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,541 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,541 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,541 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,542 - report.validation - WARNING - Строка 1032 (ID=ORD-101031) исключена из-за 1 ошибок
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,542 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,543 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,543 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,543 - report.validation - WARNING - Строка 1065 (ID=ORD-101064) исключена из-за 1 ошибок
-2026-08-02 14:20:00,543 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,543 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,543 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,543 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,544 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,544 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,544 - report.normalization - WARNING - Не удалось распарсить дату: '00.05.2026'
-2026-08-02 14:20:00,544 - report.validation - WARNING - Строка 1086 (ID=ORD-101085) исключена из-за 1 ошибок
-2026-08-02 14:20:00,544 - report.validation - WARNING - Строка 1091 (ID=ORD-101090) исключена из-за 1 ошибок
-2026-08-02 14:20:00,544 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,545 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,545 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,545 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,545 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,545 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,545 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,545 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,545 - report.normalization - INFO - Город 'Краснадар' исправлен на 'Краснодар' (score=89)
-2026-08-02 14:20:00,545 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,546 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,547 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,547 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,547 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,547 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,547 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,547 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,547 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,547 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,548 - report.normalization - WARNING - Статус 'новый' не распознан
-2026-08-02 14:20:00,548 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,548 - report.normalization - WARNING - Статус 'перенесен' не распознан
-2026-08-02 14:20:00,548 - report.normalization - INFO - Город 'анапа' исправлен на 'Анапа' (score=100)
-2026-08-02 14:20:00,548 - report.normalization - WARNING - Статус 'в работе' не распознан
-2026-08-02 14:20:00,548 - report.validation - INFO - Валидация завершена: 812 валидных заказов, 29 ошибок
-2026-08-02 14:20:00,548 - report.report_build - INFO - Валидация завершена. Успешных заказов: 812, ошибок: 29
-2026-08-02 14:20:00,568 - report.report_build - INFO - Отчёт сохранён в /tmp/reports/report_Тестовое_задание.xlsx
-2026-08-02 14:20:00,568 - routers.report - INFO - Отчёт создан: report_Тестовое_задание.xlsx
-2026-08-02 14:20:00,569 - routers.message - INFO - Пытаюсь отправить уведомление
-2026-08-02 14:20:01,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8887418923:AAHhAwVJ9PA1n19Natc0lGZdR9btSeWB5b8/sendMessage "HTTP/1.1 200 OK"
-2026-08-02 14:20:01,099 - routers.message - INFO - Уведомление отправлено пользователю
+2026-08-02 14:57:18,480 - routers.report - INFO - Загружен файл: Тестовое_задание.xlsx
+2026-08-02 14:57:18,483 - report.report_build - INFO - Загрузка файла /tmp/uploads/Тестовое_задание.xlsx
+2026-08-02 14:57:18,484 - report.handler - INFO - Чтение файла '/tmp/uploads/Тестовое_задание.xlsx', лист 'Заказы_сырье'
+2026-08-02 14:57:18,596 - report.handler - INFO - Прочитано 1200 строк
+2026-08-02 14:57:18,596 - report.report_build - INFO - Прочитано 1200 строк
+2026-08-02 14:57:18,596 - report.validation - INFO - Начинаем валидацию 1200 строк
+2026-08-02 14:57:18,599 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,599 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,599 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,599 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,599 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,599 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,600 - report.validation - WARNING - Строка 29 (ID=ORD-100028) исключена из-за 1 ошибок
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,600 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,601 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,601 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,601 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,601 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,601 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,601 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,601 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,601 - report.normalization - INFO - Город 'анапа' исправлен на 'Анапа' (score=100)
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Сумма 'не указано' не содержит цифр
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,602 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,603 - report.validation - WARNING - Строка 102 (ID=ORD-100101) исключена из-за 1 ошибок
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,603 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,604 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,604 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,604 - report.normalization - WARNING - Сумма 'abc' не содержит цифр
+2026-08-02 14:57:18,604 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,604 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,604 - report.validation - WARNING - Строка 144 (ID=ORD-100143) исключена из-за 1 ошибок
+2026-08-02 14:57:18,604 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,605 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,606 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,606 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,606 - report.normalization - WARNING - Сумма 'не указано' не содержит цифр
+2026-08-02 14:57:18,606 - report.validation - WARNING - Строка 194 (ID=ORD-100193) исключена из-за 1 ошибок
+2026-08-02 14:57:18,606 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,606 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,606 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,606 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Сумма 'три тысячи' не содержит цифр
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Сумма '' не содержит цифр
+2026-08-02 14:57:18,608 - report.validation - WARNING - Строка 209 (ID=ORD-100208) исключена из-за 1 ошибок
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,608 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,609 - report.validation - WARNING - Строка 226 (ID=ORD-100225) исключена из-за 1 ошибок
+2026-08-02 14:57:18,609 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,611 - report.normalization - WARNING - Не удалось распарсить дату: '32.05.2026'
+2026-08-02 14:57:18,611 - report.validation - WARNING - Строка 229 (ID=ORD-100228) исключена из-за 1 ошибок
+2026-08-02 14:57:18,611 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,611 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,611 - report.normalization - WARNING - Статус 'завершено?' не распознан
+2026-08-02 14:57:18,611 - report.normalization - WARNING - Сумма '' не содержит цифр
+2026-08-02 14:57:18,611 - report.validation - WARNING - Строка 237 (ID=ORD-100236) исключена из-за 1 ошибок
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,612 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,613 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,613 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,613 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,613 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,613 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,613 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,613 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,613 - report.validation - WARNING - Строка 292 (ID=ORD-100291) исключена из-за 1 ошибок
+2026-08-02 14:57:18,613 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,614 - report.validation - WARNING - Строка 302: дубликат ID заказа 'ORD-100050'
+2026-08-02 14:57:18,614 - report.validation - WARNING - Строка 302 (ID=ORD-100050) исключена из-за 1 ошибок
+2026-08-02 14:57:18,614 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,614 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,614 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,614 - report.normalization - WARNING - Сумма 'три тысячи' не содержит цифр
+2026-08-02 14:57:18,614 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,614 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,614 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,614 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,615 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,615 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,615 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,615 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,615 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,615 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,616 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,616 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,616 - report.validation - WARNING - Строка 350 (ID=ORD-100349) исключена из-за 1 ошибок
+2026-08-02 14:57:18,616 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,616 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,616 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,616 - report.validation - WARNING - Строка 363 (ID=ORD-100362) исключена из-за 1 ошибок
+2026-08-02 14:57:18,616 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,616 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,616 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,617 - report.validation - WARNING - Строка 399 (ID=ORD-100398) исключена из-за 1 ошибок
+2026-08-02 14:57:18,617 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'завершено?' не распознан
+2026-08-02 14:57:18,618 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Сумма 'abc' не содержит цифр
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,619 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,620 - report.normalization - WARNING - Не удалось распарсить дату: '32.05.2026'
+2026-08-02 14:57:18,620 - report.validation - WARNING - Строка 453 (ID=ORD-100452) исключена из-за 1 ошибок
+2026-08-02 14:57:18,620 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,620 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,620 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,620 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,620 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,621 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,622 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,622 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,622 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,622 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,622 - report.validation - WARNING - Строка 508: дубликат ID заказа 'ORD-100074'
+2026-08-02 14:57:18,622 - report.validation - WARNING - Строка 508 (ID=ORD-100074) исключена из-за 1 ошибок
+2026-08-02 14:57:18,622 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,622 - report.normalization - INFO - Город 'Новоросийск' исправлен на 'Новороссийск' (score=96)
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,623 - report.normalization - INFO - Город 'Новоросийск' исправлен на 'Новороссийск' (score=96)
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,623 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,624 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,624 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,624 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,624 - report.normalization - WARNING - Не удалось распарсить дату: '32.05.2026'
+2026-08-02 14:57:18,624 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,624 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,624 - report.normalization - WARNING - Статус 'завершено?' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,625 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,626 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,626 - report.validation - WARNING - Строка 597 (ID=ORD-100596) исключена из-за 1 ошибок
+2026-08-02 14:57:18,626 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,626 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,626 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,626 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,626 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,626 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,626 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,626 - report.normalization - INFO - Город 'Новоросийск' исправлен на 'Новороссийск' (score=96)
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Не удалось распарсить дату: '00.05.2026'
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Статус 'завершено?' не распознан
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,627 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,628 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,628 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,628 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,628 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,628 - report.validation - WARNING - Строка 647: дубликат ID заказа 'ORD-100028'
+2026-08-02 14:57:18,628 - report.validation - WARNING - Строка 647 (ID=ORD-100028) исключена из-за 1 ошибок
+2026-08-02 14:57:18,628 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,628 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,629 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,630 - report.normalization - WARNING - Статус 'готово' не распознан
+2026-08-02 14:57:18,630 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,630 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,630 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,630 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,631 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,631 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,631 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,631 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,631 - report.normalization - WARNING - Не удалось распарсить дату: '30.02.2026'
+2026-08-02 14:57:18,631 - report.validation - WARNING - Строка 723 (ID=ORD-100722) исключена из-за 1 ошибок
+2026-08-02 14:57:18,631 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,632 - report.normalization - WARNING - Не удалось распарсить дату: '31.04.2026'
+2026-08-02 14:57:18,632 - report.validation - WARNING - Строка 727 (ID=ORD-100726) исключена из-за 1 ошибок
+2026-08-02 14:57:18,632 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,632 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,632 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,632 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,632 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,633 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,634 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,634 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,634 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,634 - report.normalization - INFO - Город 'Ростов на Дону' исправлен на 'Ростов-на-Дону' (score=100)
+2026-08-02 14:57:18,634 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,634 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,634 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,635 - report.normalization - INFO - Город 'Новоросийск' исправлен на 'Новороссийск' (score=96)
+2026-08-02 14:57:18,635 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,635 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,635 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,635 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,635 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,635 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,636 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,636 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,636 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,636 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,636 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,636 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,636 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,636 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,637 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,637 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,637 - report.validation - WARNING - Строка 878 (ID=ORD-100877) исключена из-за 1 ошибок
+2026-08-02 14:57:18,637 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Не удалось распарсить дату: '00.05.2026'
+2026-08-02 14:57:18,638 - report.validation - WARNING - Строка 889 (ID=ORD-100888) исключена из-за 1 ошибок
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,638 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,639 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,639 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,639 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,639 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,639 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,639 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,639 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,640 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,641 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,641 - report.validation - WARNING - Строка 969: дубликат ID заказа 'ORD-100759'
+2026-08-02 14:57:18,641 - report.validation - WARNING - Строка 969 (ID=ORD-100759) исключена из-за 1 ошибок
+2026-08-02 14:57:18,641 - report.validation - WARNING - Строка 973 (ID=ORD-100972) исключена из-за 1 ошибок
+2026-08-02 14:57:18,641 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,641 - report.normalization - WARNING - Статус 'завершено?' не распознан
+2026-08-02 14:57:18,641 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,641 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,641 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,642 - report.normalization - INFO - Город 'Ростов на Дону' исправлен на 'Ростов-на-Дону' (score=100)
+2026-08-02 14:57:18,642 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,642 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,642 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,642 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,642 - report.normalization - WARNING - Не удалось распарсить дату: '31.04.2026'
+2026-08-02 14:57:18,642 - report.validation - WARNING - Строка 1002 (ID=ORD-101001) исключена из-за 1 ошибок
+2026-08-02 14:57:18,642 - report.normalization - WARNING - Статус 'завершено?' не распознан
+2026-08-02 14:57:18,643 - report.normalization - WARNING - Не удалось распарсить дату: '31.04.2026'
+2026-08-02 14:57:18,643 - report.validation - WARNING - Строка 1012 (ID=ORD-101011) исключена из-за 1 ошибок
+2026-08-02 14:57:18,643 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,643 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,643 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,643 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,643 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,643 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,644 - report.validation - WARNING - Строка 1032 (ID=ORD-101031) исключена из-за 1 ошибок
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,644 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,645 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,645 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,645 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,645 - report.validation - WARNING - Строка 1065 (ID=ORD-101064) исключена из-за 1 ошибок
+2026-08-02 14:57:18,645 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,645 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,645 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,645 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,646 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,646 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,646 - report.normalization - WARNING - Не удалось распарсить дату: '00.05.2026'
+2026-08-02 14:57:18,646 - report.validation - WARNING - Строка 1086 (ID=ORD-101085) исключена из-за 1 ошибок
+2026-08-02 14:57:18,646 - report.validation - WARNING - Строка 1091 (ID=ORD-101090) исключена из-за 1 ошибок
+2026-08-02 14:57:18,647 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,647 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,647 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,647 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,647 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,647 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,647 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,648 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,648 - report.normalization - INFO - Город 'Краснадар' исправлен на 'Краснодар' (score=89)
+2026-08-02 14:57:18,648 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,648 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,648 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,648 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,649 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,650 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,650 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,650 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,650 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,650 - report.normalization - WARNING - Статус 'новый' не распознан
+2026-08-02 14:57:18,650 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,650 - report.normalization - WARNING - Статус 'перенесен' не распознан
+2026-08-02 14:57:18,651 - report.normalization - INFO - Город 'анапа' исправлен на 'Анапа' (score=100)
+2026-08-02 14:57:18,651 - report.normalization - WARNING - Статус 'в работе' не распознан
+2026-08-02 14:57:18,651 - report.validation - INFO - Валидация завершена: 812 валидных заказов, 29 ошибок
+2026-08-02 14:57:18,651 - report.report_build - INFO - Валидация завершена. Успешных заказов: 812, ошибок: 29
+2026-08-02 14:57:18,669 - report.report_build - INFO - Отчёт сохранён в /tmp/reports/report.xlsx
+2026-08-02 14:57:18,670 - routers.report - INFO - Отчёт создан: report.xlsx
+2026-08-02 14:57:18,675 - routers.message - INFO - Пытаюсь отправить уведомление
+2026-08-02 14:57:19,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8887418923:AAHhAwVJ9PA1n19Natc0lGZdR9btSeWB5b8/sendMessage "HTTP/1.1 200 OK"
+2026-08-02 14:57:19,237 - routers.message - INFO - Уведомление отправлено пользователю
