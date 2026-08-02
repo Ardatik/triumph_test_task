@@ -16,9 +16,8 @@ router = APIRouter()
 templates = Jinja2Templates(directory="templates")
 
 UPLOAD_FOLDER = Path("/tmp/uploads")
-REPORT_FOLDER = Path("/tmp/reports")
-UPLOAD_FOLDER.mkdir(exist_ok=True, parents=True)
-REPORT_FOLDER.mkdir(exist_ok=True, parents=True)
+REPORT_FOLDER = Path("reports")
+REPORT_FOLDER.mkdir(exist_ok=True)
 
 
 @router.get("/", response_class=HTMLResponse)
